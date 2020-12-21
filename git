@@ -1,0 +1,36 @@
+1.git init                                 - to intiate the hidden file
+2.git config--global user.name  "name"     - name of the author
+  git congig--global user.email "email"    - email of the author 
+  git cinfig --list                        - to check the user details
+3.git clone URL                            - it is the clone of the repo
+4.touch filename                           - creates new file
+5.ls                                       - to list the file
+5.vi filename                              - to edit the file 
+6.git status                               - to show the datails of file 
+7.cat                                      - to read the file
+8.git add file name                        - to add the single file
+  git add .                                - to add the all files
+  git status                               - to show the datails of file
+9.cat filename (ctrl+d to save)            - to add the file and edit simoltaneously
+  cat >> file name                         - to add the files simoltaneously
+  git status                               - to show the datails of file
+10.git commit -m "commit message"          - to crate a commit id
+   git show shacode                        - to know the details in commited file
+11.git log                                 - to show the commited files
+   git log -n enternumber                  - to show the last or wanted commited file
+   git log--oneline                        - to show the single line commited files
+   git log --author=nameofauthor           - to show the name of author
+   git log --author=demo --oneline         - to show the single line names of author
+   git log --author=demo --oneline2        - to show the two lines of author names
+   git log --since=yyyy-mm-dd              - to show the logs is date wise
+   git log --until=yyyy-mm-dd              - to show the particular logs date wise
+12.git branch                              - to display all the branches
+   git branch branchname                   - to create a new branch
+   git checkout branchname                 - to change the branch
+   git merge branchname                    - to merge files to original master branch
+   git branch -d branchname                - to delete the branch of you required
+   git checkout -b branchname              - to create branch and change baranch at a time
+13.git reset head filename                 - to change  files staging/index area to work space area
+   git reset--soft commitid                - to change files local repo to staging/index area
+   git reset--mixed commitid               - to change files directly local repo to work space area
+14.pwd                                     - to show the present working directory
