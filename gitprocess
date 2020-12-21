@@ -23,8 +23,8 @@
    git log -n enternumber                  - to show the last or wanted commited file
    git log --oneline                        - to show the single line commited files
    git log --author=nameofauthor           - to show the name of author
-   git log --author=demo --oneline         - to show the single line names of author
-   git log --author=demo --oneline2        - to show the two lines of author names
+   git log --author=demo--oneline         - to show the single line names of author
+   git log --author=demo--oneline2        - to show the two lines of author names
    git log --since=yyyy-mm-dd              - to show the logs is date wise
    git log --until=yyyy-mm-dd              - to show the particular logs date wise
 12.git branch                              - to display all the branches
