@@ -39,3 +39,5 @@
 14.pwd                                     - to show the present working directory
 15.git push origin master                  - to pushing the code from local to central repo
 16.git pull                                - to take the code central repo to local
+17.histrory                                - to see the history of all commands
+
