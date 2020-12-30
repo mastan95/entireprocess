@@ -1,4 +1,4 @@
-0.cd                                       - to change directory
+0.cd                                       - to change directory of your requirement
   cp sourcefile desinationfile/directory   - to copy the files source to destination
   mv sourcefile desinationfile/directory   - to move the files source to destination
 1.git init                                 - to intiate the hidden file
